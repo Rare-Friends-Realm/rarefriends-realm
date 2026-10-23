@@ -181,7 +181,7 @@ export function previewArt(kind: "logo" | "banner", id: string, colors: readonly
 // ---------- Fellowship art, from the site's fellowships folder ----------
 export type FellowshipArt = { logo: HTMLImageElement | null; bg: HTMLImageElement | null };
 /** Where fellowship logos and backgrounds live: `<TAG>/logo.png` and `<TAG>/bg.png` under the preview site. */
-export const FELLOWSHIP_ART_URL = "https://m4s4t0-v01d.github.io/rarefriends-realm/preview/fellowships/";
+export const FELLOWSHIP_ART_URL = "https://rare-friends-realm.github.io/rarefriends-realm/preview/fellowships/";
 const artCache = new Map<string, Promise<FellowshipArt>>();
 function loadImage(url: string): Promise<HTMLImageElement | null> {
   return new Promise(resolve => {
@@ -203,7 +203,7 @@ export function fellowshipArt(tag: string): Promise<FellowshipArt> {
 }
 
 // ---------- Recruiting: a join link good for a day, and what it says ----------
-export const INVITE_HOURS = 24, GAME_URL = "https://m4s4t0-v01d.github.io/rarefriends-realm/";
+export const INVITE_HOURS = 24, GAME_URL = "https://rare-friends-realm.github.io/rarefriends-realm/";
 const b64 = (text: string) => btoa(unescape(encodeURIComponent(text))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 const unb64 = (text: string) => decodeURIComponent(escape(atob(text.replace(/-/g, "+").replace(/_/g, "/"))));
 export type Invite = { name: string; tag: string; logo?: string; banner?: string; colors?: string[]; since?: number; expires: number };

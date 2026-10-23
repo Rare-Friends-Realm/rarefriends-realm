@@ -2,8 +2,13 @@
 
 *An old-school adventure starring the Rare Friend you own: twenty-one skills, twenty quests, a continent of a world with the original Realm at its heart, and a Hollow King to end. Winner of the Rare Friends Vibeathon.*
 
-**▶ Play: https://m4s4t0-v01d.github.io/rarefriends-realm/** · **🎬 Trailer: https://m4s4t0-v01d.github.io/rarefriends-realm/preview/#trailer** · **Preview page: https://m4s4t0-v01d.github.io/rarefriends-realm/preview/** · **Lore: https://m4s4t0-v01d.github.io/rarefriends-realm/preview/lore.html** · **Skill guides: https://m4s4t0-v01d.github.io/rarefriends-realm/preview/guides.html**
+**▶ Play: https://rare-friends-realm.github.io/rarefriends-realm/** · **🎬 Trailer: https://rare-friends-realm.github.io/rarefriends-realm/preview/#trailer** · **Preview page: https://rare-friends-realm.github.io/rarefriends-realm/preview/** · **Lore: https://rare-friends-realm.github.io/rarefriends-realm/preview/lore.html** · **Skill guides: https://rare-friends-realm.github.io/rarefriends-realm/preview/guides.html**
 *(You need a browser wallet on Robinhood mainnet holding a hardwired Rare Friends Generations NFT.)*
+
+> This is the Realm's home in the **[Rare Friends Realm](https://github.com/Rare-Friends-Realm)** organisation: the same game,
+> history and cloud saves as the original [M4S4T0-V01D/rarefriends-realm](https://github.com/M4S4T0-V01D/rarefriends-realm).
+> Cloud saves follow your wallet, so a character saved on either site carries over once you verify your wallet here.
+> Browser-only saves belong to the site they were made on; move them with a save code.
 
 ![Dusk over Friendhollow: long shadows across the square, a knight in gold Dawnplate, villagers in hats and capes, lamps coming on](docs/new-light-dusk.png)
 
@@ -40,7 +45,7 @@ quests, faith weapons and Dawnplate, gold armour you can see on your Friend; and
 | **A day in Whisperwood** | **Campfires at night** | **The Dawnhold chapel** |
 | ![A time-lapse in Whisperwood: tree shadows sweep round from morning to evening](docs/gifs/realm-forest-light.gif) | ![Two campfires lighting the forest floor and the trees around them at night, with fireflies](docs/gifs/realm-night-fire.gif) | ![Torchlight inside the Dawnhold chapel at night, Sister Maren at the altar](docs/gifs/realm-chapel.gif) |
 | **A moonlit unicorn at dawn** | **Wyrmreach's lava at dusk** | **The full trailer** |
-| ![Riding the moonlit unicorn through Friendhollow at dawn](docs/gifs/realm-unicorn-dawn.gif) | ![Lava glowing and lighting the rocks of Wyrmreach as dusk falls](docs/gifs/realm-lava.gif) | [▶ Watch the trailer](https://m4s4t0-v01d.github.io/rarefriends-realm/preview/#trailer) (with its soundtrack) |
+| ![Riding the moonlit unicorn through Friendhollow at dawn](docs/gifs/realm-unicorn-dawn.gif) | ![Lava glowing and lighting the rocks of Wyrmreach as dusk falls](docs/gifs/realm-lava.gif) | [▶ Watch the trailer](https://rare-friends-realm.github.io/rarefriends-realm/preview/#trailer) (with its soundtrack) |
 
 | Night in the square | The forest by firelight | A storm at night |
 | --- | --- | --- |
@@ -77,7 +82,7 @@ quests, faith weapons and Dawnplate, gold armour you can see on your Friend; and
 - **Townsfolk who dress up.** Villagers wear their own hats, capes and amulets and some carry axes or pickaxes; tradesfolk dress for their trades, and the castle guards wear helms, breastplates and red capes. Health bars only show in a fight.
 - **Twenty-one skills on the classic curve.** Attack, Strength, Defence, Ranged, Hitpoints, Magic, Faith, Sigilcraft, Woodcutting, Fletching, Fishing, Cooking, Firemaking, Mining, Smithing, Crafting, Stealth, Wayfaring, Slayer, Apothecary and Presence, from level 1 to 99. Bows fire the arrows in your pack; Fletching makes shafts and bows from logs and finishes arrows with heads smithed at the anvil; Sigilcraft presses sigil stones into the sigils magic runs on, at eleven altars across the Realm; the Slayer Warden hands out tasks and some creatures only a Slayer can wound; **Stealth** lets you sneak past aggressive monsters on your run energy (XP for slipping by unseen, a hit if you're spotted), strike from the shadows, pick pockets and rob stalls, and one day find the Veilweave hood that fades you almost to nothing when you stand still. **Reach 99 and buy that skill's mastery cape** from the Keeper of Capes (trimmed once you've mastered two), worn on your Friend with its skill's emblem on the back.
 - **Referral codes.** Your code is `RF-<your Friend #>` (Friends tab). A new friend who enters it and you each get 250 coins, the **Friendship cape** (with its own Friendship emote: hearts and a pink sunburst) and +15% XP for an hour of play; you get yours the next time you're online together, for every friend you bring (up to five a day; any more are credited on a later day).
-- **Skill guides and a recipe book.** Click any skill for everything it unlocks, level by level, with your progress ticked off; the recipe book lists every recipe with its ingredients and a "can make now" filter. The same guides are on the [website](https://m4s4t0-v01d.github.io/rarefriends-realm/preview/guides.html).
+- **Skill guides and a recipe book.** Click any skill for everything it unlocks, level by level, with your progress ticked off; the recipe book lists every recipe with its ingredients and a "can make now" filter. The same guides are on the [website](https://rare-friends-realm.github.io/rarefriends-realm/preview/guides.html).
 - **Old-school controls.** Left-click does the first option; right-click lists them all (*Chop down Tree*, *Attack Grumblin (level-5)*, *Talk-to*, *Pickpocket*, *Examine*), in the world and in every interface: inventory, bank (*Withdraw-1/5/10/All*), shops (*Value*, *Buy-50*, *Sell-10*), equipment, spells (*Cast*, *Autocast*), prayers, production (*Make-All*), the compass (*Look North/East/South/West*) and the minimap. WASD walks; the arrow keys (or a scroll-wheel drag) turn the camera and tilt it from overhead down to almost ground level, scroll zooms in close to your Friend, and the compass turns north to the top of the screen. Use items on things. Minimap, run orb, world map. Health bars show only while fighting.
 - **A large, living world.** A 350 × 200 tile island (it swells east into mountains, with a ragged coast) with 17 regions and 2 dungeons: towns, a mountain town, farms, forests, a woodcutters' village, a mine, a forge, snowy peaks, a lake with a pier, dunes and an oasis, a swamp, ruins, the Wizards' Tower, the ash fields and lava of Wyrmreach, a crypt and the Hollow Depths. The land rolls in walkable hills (lit by slope, with ink contour lines) and you can see a long way across it before the haze, and it's alive: cloud shadows, birds, butterflies, falling leaves, snow, blowing dust, fireflies, jumping fish and forge smoke.
 - **Real buildings, in pixel art.** Walls and roofs are textured in the same chunky pixels as the trees and rocks: half-timbered plaster houses with oak beams, stone keeps in brick courses, leaded windows, scalloped shingle roofs and smoking chimneys. The ground matches: grassy tufts, pebbled paths, cobbled streets and flagstones, and furnaces are brick kilns with fire in the mouth. Roofs lift away as you walk in, walls in front of you drop to a cutaway, and a roof fades whenever it would hide you.
@@ -204,7 +209,7 @@ drawn with its own canonical art, and adds XP by generation (Gen 1 +5% … Gen 5
 Needs **Node.js 22+**, npm and Git. On Windows, use WSL2 Ubuntu, as the FriendSDK README describes.
 
 ```sh
-git clone https://github.com/M4S4T0-V01D/rarefriends-realm.git
+git clone https://github.com/Rare-Friends-Realm/rarefriends-realm.git
 cd rarefriends-realm
 npm ci
 npm run dev            # http://localhost:4173   ·   npm run dev:lan to play from a phone on the same Wi-Fi
@@ -308,7 +313,7 @@ The game object itself is never touched. If WebGL2 isn't available, or its conte
 
 - The plain address opens the Realm in the player's chosen mode (Normal by default).
 - `?renderer=webgl` or `?renderer=normal` chooses for that visit only.
-- The old WebGL address (`m4s4t0-v01d.github.io/realm-gl/`) forwards here with `?renderer=webgl`, keeping any invitation in its address. Both are on the same origin, so saves and cloud sign-ins are already shared.
+- The old WebGL address (`m4s4t0-v01d.github.io/realm-gl/`) forwards to the original site with `?renderer=webgl`, keeping any invitation in its address. Both are on the same origin, so saves and cloud sign-ins are already shared.
 
 **Tests.**
 
@@ -350,7 +355,8 @@ over `postMessage`, the same way it relays saves.
 
 ## Credits
 
-Built for the Rare Friends Vibeathon, where it took **1st place**, by **M4S4T0** ([@M4S4T0-V01D](https://github.com/M4S4T0-V01D)) with an AI coding agent.
+Built for the Rare Friends Vibeathon, where it took **1st place**, by **M4S4T0** ([@M4S4T0-V01D](https://github.com/M4S4T0-V01D)) with an AI coding agent; now published by the
+[Rare Friends Realm](https://github.com/Rare-Friends-Realm) organisation.
 FriendSDK and the Rare Friends artwork are by Rare Friends; see [NOTICE.md](NOTICE.md). The world, creatures,
 townsfolk, item art, music and sound effects are original procedural code. Gameplay inspired by classic browser RPGs such
 as *Old School RuneScape*; the Realm's places, metals, gems, sigils, spells, prayers and items all have their own names, and

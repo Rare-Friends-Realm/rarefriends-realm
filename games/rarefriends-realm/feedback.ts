@@ -9,7 +9,7 @@ import { LATEST_UPDATE } from "./updates.ts";
 import { MAX_QUEST_POINTS, questPoints } from "./content.ts";
 import { regionAt } from "./world.ts";
 
-export const FEEDBACK_REPO = "M4S4T0-V01D/rarefriends-realm";
+export const FEEDBACK_REPO = "Rare-Friends-Realm/rarefriends-realm";
 export const FEEDBACK_KINDS = ["Bug", "Idea", "Balance", "Something else"] as const;
 export type FeedbackKind = typeof FEEDBACK_KINDS[number];
 export const FEEDBACK_MAX = 600;

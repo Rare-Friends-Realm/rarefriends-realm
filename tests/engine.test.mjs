@@ -2181,7 +2181,7 @@ test("Fellowship invitations: a day-long join link with the look inside, and joi
   const { inviteLink, parseInvite } = await import("../games/rarefriends-realm/cardstyle.ts");
   const { joinFellowship } = await import("../games/rarefriends-realm/presence.ts");
   const now = 1_800_000_000_000, fellowship = { name: "The Moonlit", tag: "MOON", logo: "paw", banner: "zigzag", colors: ["#112233", "#ffeedd"], since: 20000 };
-  const link = inviteLink(fellowship, now); assert(link.startsWith("https://m4s4t0-v01d.github.io/rarefriends-realm/?join="));
+  const link = inviteLink(fellowship, now); assert(link.startsWith("https://rare-friends-realm.github.io/rarefriends-realm/?join="));
   const token = link.split("?join=")[1], invite = parseInvite(token, now + 3_600_000);
   assert.deepEqual(invite, { ...fellowship, expires: now + 24 * 3_600_000 }, "the look travels with the link");
   assert.equal(parseInvite(token, now + 25 * 3_600_000), null, "a day later it's dead"); assert.equal(parseInvite("nonsense", now), null);
@@ -2599,7 +2599,7 @@ test("Feedback: an X post tagging the Realm and its maker, and a GitHub issue wi
   const issue = feedbackIssue(g, "Idea", "More fish in Candlemere's lake\nand a boat.", true, true);
   assert.equal(issue.title, "[Idea] More fish in Candlemere's lake"); assert.match(issue.body, /Friend: #7730 \(Tester\)/); assert.match(issue.body, /Region: /); assert.match(issue.body, /posted on X/);
   assert.doesNotMatch(feedbackIssue(g, "Bug", "x", false, false).body, /Friend:/, "details only when asked");
-  assert.equal(FEEDBACK_REPO, "M4S4T0-V01D/rarefriends-realm");
+  assert.equal(FEEDBACK_REPO, "Rare-Friends-Realm/rarefriends-realm");
 });
 
 test("Raria's walls stand three storeys high under taller towers, and the Cathedral's bell tower is climbed to the Great Bell", async () => {

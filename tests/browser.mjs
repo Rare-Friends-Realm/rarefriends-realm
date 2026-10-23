@@ -465,7 +465,7 @@ try {
   await page.waitForFunction(() => window.__shared.opened.length >= 2);
   const [issueUrl, postUrl] = await page.evaluate(() => window.__shared.opened);
   const issue = new URL(issueUrl), post = new URL(postUrl).searchParams.get("text");
-  assert.equal(issue.origin + issue.pathname, "https://github.com/M4S4T0-V01D/rarefriends-realm/issues/new");
+  assert.equal(issue.origin + issue.pathname, "https://github.com/Rare-Friends-Realm/rarefriends-realm/issues/new");
   assert.match(issue.searchParams.get("title"), /^\[Bug\] The fishing spot/); assert.match(issue.searchParams.get("body"), /Friend: #7730/); assert.equal(issue.searchParams.get("labels"), "player-feedback");
   for (const tag of ["@M4S4T0_V01D", "@RareFriendsNFT", "#RareFriends", "#RareFriendsRealm"]) assert.ok(post.includes(tag), `feedback post tags ${tag}`);
   await game.getByRole("button", { name: "Close" }).click();
