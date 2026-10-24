@@ -35,7 +35,7 @@ export type DevEnv = { DB: Database; DEV_PASSWORD_HASH?: string; bucket?: Bucket
   /** (Tests answer GitHub's calls themselves.) */
   github?: typeof fetch };
 /** Where a deployed development world goes in the repository (listed in overlays/index.ts). */
-export const DEPLOY_PATH = "games/rarefriends-realm/overlays/devworld.ts", DEPLOY_REPO = "M4S4T0-V01D/rarefriends-realm", DEPLOY_GAP_MS = 60_000;
+export const DEPLOY_PATH = "games/rarefriends-realm/overlays/devworld.ts", DEPLOY_REPO = "Rare-Friends-Realm/rarefriends-realm", DEPLOY_GAP_MS = 60_000;
 type DeployRow = { id: number; revision_id: number; version: number; name: string | null; ops: number; sha: string; url: string; at: number; status: string; run_url: string | null };
 const TYPES: Record<string, string> = { html: "text/html; charset=utf-8", js: "text/javascript; charset=utf-8", css: "text/css; charset=utf-8", json: "application/json", png: "image/png", jpg: "image/jpeg", svg: "image/svg+xml", webm: "video/webm", mp4: "video/mp4", wasm: "application/wasm", ico: "image/x-icon" };
 export const DEV_LIMITS = { sessionMs: 12 * 3_600_000, tries: 5, lockoutMs: 15 * 60_000, overlayBytes: 4_000_000, revisionsKeep: 200 } as const;

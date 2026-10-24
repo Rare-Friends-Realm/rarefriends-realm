@@ -410,7 +410,7 @@ test("The development dashboard's Deploy button: a save, chosen, is committed on
   const deployed = await call(app, "POST", "/dev/api/world/main/deploy", { cookie, body: { revision: revision.id } });
   assert.equal(deployed.status, 200, JSON.stringify(deployed.body)); assert.match(deployed.body.sha, /^c0ffee/);
   const put = calls.find(c => c.method === "PUT");
-  assert.ok(put.url.endsWith(`/repos/M4S4T0-V01D/rarefriends-realm/contents/${DEPLOY_PATH}`) && put.body.branch === "main" && put.body.sha === "oldfilesha", "the deployed world's file, on main, replacing the last one");
+  assert.ok(put.url.endsWith(`/repos/Rare-Friends-Realm/rarefriends-realm/contents/${DEPLOY_PATH}`) && put.body.branch === "main" && put.body.sha === "oldfilesha", "the deployed world's file, on main, replacing the last one");
   const file = Buffer.from(put.body.content, "base64").toString("utf8");
   assert.match(file, /const overlay: Overlay = \{"v":1,"frame":2,"name":"Friendhollow hills"/); assert.match(file, /export default overlay;/);
   assert.ok(calls.every(c => c.auth === "Bearer ghp_secret_token"), "the token goes to GitHub");
